@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teste de Integração Cenário 2 1`] = `
+{
+  "clientCpf": "000.000.000-00",
+  "client_cpf": "000.000.000-00",
+  "createdAt": "2024-06-17T12:07:27.354Z",
+  "emissao": "2024-06-17T12:07:27.353Z",
+  "id": 63,
+  "juros": 0.025,
+  "montante": 109.57,
+  "prestacoes": "[36.53,36.52,36.52]",
+  "qtde_prestacoes": 3,
+  "updatedAt": "2024-06-17T12:07:27.354Z",
+  "valor": 101.75,
+}
+`;
