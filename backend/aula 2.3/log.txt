@@ -1,0 +1,97 @@
+
+21/04/2024, 21:15:19 - GET /
+21/04/2024, 21:15:23 - GET /
+21/04/2024, 21:15:24 - GET /
+21/04/2024, 21:15:24 - GET /
+21/04/2024, 21:15:25 - GET /
+21/04/2024, 21:15:25 - GET /
+21/04/2024, 21:15:26 - GET /
+21/04/2024, 21:15:52 - GET / - 
+21/04/2024, 21:15:57 - GET / - 
+21/04/2024, 21:15:58 - GET / - 
+21/04/2024, 21:15:58 - GET / - 
+21/04/2024, 21:16:12 - GET / - ::1
+21/04/2024, 21:16:15 - GET / - ::1
+21/04/2024, 21:16:16 - GET / - ::1
+21/04/2024, 21:16:16 - GET / - ::1
+22/04/2024, 15:41:39 - DELETE /rota-a - ::ffff:127.0.0.1
+22/04/2024, 15:45:54 - DELETE /carros - ::ffff:127.0.0.1
+22/04/2024, 15:45:54 - DELETE /carros - ::ffff:127.0.0.1
+22/04/2024, 15:45:55 - DELETE /carros - ::ffff:127.0.0.1
+22/04/2024, 15:45:55 - DELETE /carros - ::ffff:127.0.0.1
+22/04/2024, 15:45:55 - DELETE /carros - ::ffff:127.0.0.1
+22/04/2024, 15:45:55 - DELETE /carros - ::ffff:127.0.0.1
+22/04/2024, 15:46:02 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:04 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:16 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:16 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:17 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:17 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:17 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:18 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:25 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:25 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:26 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:26 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:26 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:26 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:26 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:27 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:27 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:27 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:27 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:27 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:46:27 - GET /carross - ::ffff:127.0.0.1
+22/04/2024, 15:47:17 - GET /carros/s - ::ffff:127.0.0.1
+22/04/2024, 15:47:17 - GET /carros/s - ::ffff:127.0.0.1
+22/04/2024, 15:47:18 - GET /carros/s - ::ffff:127.0.0.1
+22/04/2024, 15:47:19 - GET /carros/s - ::ffff:127.0.0.1
+22/04/2024, 15:48:30 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:48:34 - GET /carros/precoss - ::ffff:127.0.0.1
+22/04/2024, 15:48:44 - GET /carros/precoss - ::ffff:127.0.0.1
+22/04/2024, 15:48:46 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:02 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:03 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:03 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:04 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:04 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:04 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:05 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:11 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:11 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:12 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:12 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:12 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:13 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:13 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:13 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:13 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:14 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:29 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:30 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:30 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:31 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:31 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:32 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:46 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:54 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:54 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:55 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:55 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:55 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:56 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:49:56 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:04 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:05 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:14 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:16 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:32 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:37 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:38 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:43 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:44 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:44 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:44 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:50:45 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:51:03 - GET /carros/precos - ::ffff:127.0.0.1
+22/04/2024, 15:51:16 - GET /carros/precos - ::ffff:127.0.0.1

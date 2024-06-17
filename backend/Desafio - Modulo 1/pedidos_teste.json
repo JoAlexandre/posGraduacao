@@ -1,0 +1,37 @@
+{
+  "nextId": 129,
+  "pedidos": [
+    {
+      "id": 125,
+      "cliente": "José Alexandre",
+      "produto": "Pão doce",
+      "valor": 5.5,
+      "timestamp": "2024-04-30T19:59:55.992Z",
+      "entregue": false
+    },
+    {
+      "id": 126,
+      "cliente": "João Pedro",
+      "produto": "Pão de queijo",
+      "valor": 150,
+      "timestamp": "2024-04-30T20:00:16.379Z",
+      "entregue": true
+    },
+    {
+      "id": 127,
+      "cliente": "João Pedro",
+      "produto": "Marmita",
+      "valor": 25,
+      "timestamp": "2024-04-30T20:00:23.539Z",
+      "entregue": true
+    },
+    {
+      "id": 128,
+      "cliente": "João Pedro",
+      "produto": "Pão de Forma",
+      "valor": 12.5,
+      "timestamp": "2024-04-30T20:00:36.874Z",
+      "entregue": true
+    }
+  ]
+}
