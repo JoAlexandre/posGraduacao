@@ -17,5 +17,35 @@ describe("Testes de Integrações", () => {
     expect(resp.status).toBe(200)
   })
   
+  test('Servidor na porta 8090', async () => {
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
+  
+  test('Servidor na porta 8090', async () => {
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
+  
+  test('Servidor na porta 8090', async () => {
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
+  
+  test('Servidor na porta 8090', async () => {
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
+  
+  test('Servidor na porta 8090', async () => {
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
+  
+  test('Servidor na porta 8090', async () => {
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
+  
 
 })
