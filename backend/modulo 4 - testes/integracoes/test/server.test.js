@@ -10,6 +10,12 @@ describe("Testes de Integrações", () => {
     const resp = await request.get('/')
     expect(resp.status).toBe(200)
   })
+
+  test('Servidor na porta 8090', async () => {
+    const soma = (a, b) => a + b
+    const resp = await request.get('/')
+    expect(resp.status).toBe(200)
+  })
   
 
 })
