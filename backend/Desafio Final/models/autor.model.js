@@ -2,7 +2,7 @@ import sequelize from "sequelize";
 import db from "../repository/db.js";
 
 const Autor = db.define('Autor', {
-  autor_id: {
+  autorId: {
     type: sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,

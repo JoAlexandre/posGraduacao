@@ -1,10 +1,10 @@
 import sequelize from "sequelize";
 import db from "../repository/db.js";
-import Client from "./client.model";
-import Livro from "./livro.model";
+import Client from "./client.model.js";
+import Livro from "./livro.model.js";
 
 const Venda = db.define('Venda', {
-  venda_id: {
+  vendaId: {
     type: sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,
@@ -20,6 +20,6 @@ const Venda = db.define('Venda', {
   },
 }, { underscored: true })
 
-Venda.belongsTo(Client, {foreignKey:'client_id'})
-Venda.belongsTo(Livro, {foreignKey:'livro_id'})
+Venda.belongsTo(Client, {foreignKey:'clientId'})
+Venda.belongsTo(Livro, {foreignKey:'livroId'})
 export default Venda

@@ -1,9 +1,9 @@
 import sequelize from "sequelize";
 import db from "../repository/db.js";
-import Autor from "./autor.model";
+import Autor from "./autor.model.js";
 
 const Livro = db.define('Livro', {
-  livro_id: {
+  livroId: {
     type: sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,

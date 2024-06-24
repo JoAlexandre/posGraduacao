@@ -2,7 +2,7 @@ import sequelize from "sequelize";
 import db from "../repository/db.js";
 
 const Client = db.define('Client', {
-  client_id: {
+  clientId: {
     type: sequelize.INTEGER,
     primaryKey: true,
     allowNull: false,
