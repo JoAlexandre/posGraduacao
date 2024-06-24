@@ -21,7 +21,7 @@ async function createClient(req, res, next) {
 async function updateClient(req, res, next) {
 	let client = req.body;
 	try {
-		if (!client.clientId || !client.nome ||!client.email ||!client.senha ||!client.telefone ||!client.endereco) throw new Error("Nome, email, senha, telefone e endereço são OBRIGATÓRIOS!");
+		if (!client.clientId || !client.nome ||!client.email ||!client.senha ||!client.telefone ||!client.endereco) throw new Error("Id, Nome, email, senha, telefone e endereço são OBRIGATÓRIOS!");
 
 		client = await ClientService.updateClient(client);
 		global.logger.info(`${req.method.toUpperCase()} ${req.originalUrl} - ${JSON.stringify(client)}`);

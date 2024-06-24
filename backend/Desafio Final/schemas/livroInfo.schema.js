@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import AvaliacaoSchema from "./avaliacaoInfo.schema copy";
+import AvaliacaoSchema from "./avaliacaoInfo.schema.js";
 const LivroInfoSchema = new mongoose.Schema(
 	{
 		livroId: Number,

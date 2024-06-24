@@ -17,7 +17,7 @@ async function updateClient(client) {
 }
 
 async function deleteClient(id) {
-  if(await VendaRepository.getVenda(id)) throw new Error("Cliente não pode ser deletado com venda atribuida a ele.")
+  if(await VendaRepository.getVendaByClientId(id)) throw new Error("Cliente não pode ser deletado com venda atribuida a ele.")
   return await ClientRespository.deleteClient(id)
 }
 

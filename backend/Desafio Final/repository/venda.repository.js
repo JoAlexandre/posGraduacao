@@ -9,9 +9,28 @@ async function getVendas() {
 	}
 }
 
-async function getVenda(clientId) {
+async function getVenda(id) {
+	try {
+		const data = await Venda.findByPk(id, { raw: true });
+		return data;
+	} catch (error) {
+		throw error;
+	}
+}
+
+async function getVendaByClientId(clientId) {
 	try {
 		const data = await Venda.findOne({ where: { clientId } }, { raw: true });
+		return data;
+	} catch (error) {
+		throw error;
+	}
+}
+
+async function getVendaByLivroId(livroId) {
+	let data = []
+	try {
+		data = await Venda.findAll({ where: { livroId } }, { raw: true });
 		return data;
 	} catch (error) {
 		throw error;
@@ -58,4 +77,12 @@ async function deleteVenda(vendaId) {
 	}
 }
 
-export default { getVendas, createVenda, updateVenda, getVenda, deleteVenda };
+export default {
+	getVendas,
+	createVenda,
+	updateVenda,
+	getVenda,
+	deleteVenda,
+	getVendaByClientId,
+	getVendaByLivroId
+};

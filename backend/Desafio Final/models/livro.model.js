@@ -23,6 +23,6 @@ const Livro = db.define('Livro', {
   },
 }, { underscored: true })
 
-Livro.belongsTo(Autor, {foreignKey:'autor_id'})
+Livro.belongsTo(Autor, {foreignKey:'autorId'})
 
 export default Livro

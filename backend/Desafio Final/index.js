@@ -2,6 +2,8 @@ import express from "express";
 import db from "./repository/db.js";
 import winston from "winston";
 import clientRouter from './routes/client.route.js' 
+import autorRouter from './routes/autor.route.js' 
+import livroRouter from './routes/livro.route.js' 
 const app = express();
 const port_app = process.env.PORT_APP || 3002
 app.use(express.json());
@@ -23,6 +25,8 @@ global.logger = winston.createLogger({
 });
 
 app.use("/cliente", clientRouter)
+app.use("/autor", autorRouter)
+app.use("/livro", livroRouter)
  
 app.use((err, req, res, next) =>{
   global.logger.error(`${req.method.toUpperCase()} ${req.originalUrl} - ${err.message}`)
