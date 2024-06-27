@@ -44,5 +44,8 @@ async function deleteLivroInfo(id) {
 async function createAvaliacao(id, avaliacao) {
 	return await LivroInfoRepository.createAvaliacao(parseInt(id), avaliacao);
 }
+async function deleteAvaliacao(id, index) {
+	return await LivroInfoRepository.deleteAvaliacao(parseInt(id), parseInt(index));
+}
 
-export default { createLivro, getLivros, updateLivro, getLivro, deleteLivro, createLivroInfo, deleteLivroInfo, createAvaliacao, updateLivroInfo };
+export default { createLivro, getLivros, updateLivro, getLivro, deleteLivro, createLivroInfo, deleteLivroInfo, createAvaliacao, updateLivroInfo, deleteAvaliacao };

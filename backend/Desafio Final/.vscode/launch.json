@@ -12,7 +12,7 @@
         "<node_internals>/**"
       ],
       "envFile": "${workspaceFolder}\\.env",
-      "program": "${workspaceFolder}\\index.js"
+      "program": "${workspaceFolder}\\src\\server.js"
     }
   ]
 }

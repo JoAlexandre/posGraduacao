@@ -128,12 +128,26 @@ async function createAvaliacao(req, res, next) {
 	try {
 		if (isNaN(parseInt(id)) || !avaliacao.nome || avaliacao.nota == null || !avaliacao.avaliacao) throw new Error("Id do Livro, Nome do Cliente, Nota e Avaliação são OBRIGATÓRIOS!");
 
-		avaliacao = await LivroService.createAvaliacao(id, avaliacao);
-		global.logger.info(`${req.method.toUpperCase()} ${req.originalUrl} ${JSON.stringify(avaliacao)}`);
-		res.send(avaliacao)
+		
+		res.send(await LivroService.createAvaliacao(id, avaliacao))
+		global.logger.info(`${req.method.toUpperCase()} ${req.originalUrl}`);
 		
 	} catch (error) {
 		next(error);
 	}
 }
-export default { createLivro, getLivros, updateLivro, getLivro, deleteLivro, createLivroInfo, deleteLivroInfo, createAvaliacao, updateLivroInfo };
+
+async function deleteAvaliacao(req, res, next) {
+	let { id, index } = req.params
+	try {
+
+		
+		await LivroService.deleteAvaliacao(id, index)
+		global.logger.info(`${req.method.toUpperCase()} ${req.originalUrl}`);
+		res.end()
+		
+	} catch (error) {
+		next(error);
+	}
+}
+export default { createLivro, getLivros, updateLivro, getLivro, deleteLivro, createLivroInfo, deleteLivroInfo, updateLivroInfo, createAvaliacao, deleteAvaliacao };

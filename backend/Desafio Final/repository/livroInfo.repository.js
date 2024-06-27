@@ -46,7 +46,7 @@ async function updateLivroInfo(livro) {
 	try {
 		const mongoose = await connect();
 		const LivroInfo = mongoose.model("LivroInfo", LivroInfoSchema);
-		await LivroInfo.findOneAndUpdate({ livroId: livro.livroId }, livro)
+		return await LivroInfo.findOneAndUpdate({ livroId: livro.livroId }, livro)
 	} catch (error) {
 		throw error;
 	}
@@ -57,12 +57,23 @@ async function createAvaliacao(livroId, avaliacao) {
 		let livroInfo = await getLivroInfo(livroId)
 		
 		livroInfo.avaliacoes.push(avaliacao)
+		return await updateLivroInfo(livroInfo)
 
-		await updateLivroInfo(livroInfo)
+	} catch (error) {
+		throw error;
+	}
+}
+async function deleteAvaliacao(livroId, indice) {
+	try {
+		let livroInfo = await getLivroInfo(livroId)
+		
+		livroInfo.avaliacoes.splice(indice, 1)
+
+		return await updateLivroInfo(livroInfo)
 
 	} catch (error) {
 		throw error;
 	}
 }
 
-export default { getLivroInfo, getLivroInfos, createLivroInfo, deleteLivroInfo, updateLivroInfo, createAvaliacao };
+export default { getLivroInfo, getLivroInfos, createLivroInfo, deleteLivroInfo, updateLivroInfo, createAvaliacao, deleteAvaliacao };

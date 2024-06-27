@@ -68,10 +68,39 @@ async function deleteClient(clientId) {
 	}
 }
 
+async function getClientByNameAndPassword(client) {
+	try {
+		const data = await Client.findOne({
+			where: client,
+			raw: true,
+			attributes: { exclude: "senha" },
+		});
+
+		return data;
+	} catch (error) {
+		throw error;
+	}
+}
+async function getClientByEmail(email) {
+	try {
+		const data = await Client.findOne({
+			where: {email},
+			raw: true,
+			attributes: { exclude: "senha" },
+		});
+
+		return data;
+	} catch (error) {
+		throw error;
+	}
+}
+
 export default {
 	getClients,
 	createClient,
 	updateClient,
 	getClient,
 	deleteClient,
+	getClientByNameAndPassword,
+	getClientByEmail
 };

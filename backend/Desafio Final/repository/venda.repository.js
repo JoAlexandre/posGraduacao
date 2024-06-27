@@ -20,7 +20,7 @@ async function getVenda(id) {
 
 async function getVendaByClientId(clientId) {
 	try {
-		const data = await Venda.findOne({ where: { clientId } }, { raw: true });
+		const data = await Venda.findAll({ where: { clientId } }, { raw: true });
 		return data;
 	} catch (error) {
 		throw error;

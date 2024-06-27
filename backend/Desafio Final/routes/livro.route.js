@@ -11,7 +11,8 @@ router.delete("/:id", LivroCrontroller.deleteLivro);
 router.post("/info", LivroCrontroller.createLivroInfo);
 router.put("/info", LivroCrontroller.updateLivroInfo);
 router.delete("/info/:id", LivroCrontroller.deleteLivroInfo);
-router.post("/info/:id/avaliacao", LivroCrontroller.createAvaliacao);
+router.post("/:id/avaliacao", LivroCrontroller.createAvaliacao);
+router.delete("/:id/avaliacao/:index", LivroCrontroller.deleteAvaliacao);
 router.all("*", (req, res) => res.send("Page not Found"));
 
 export default router;

@@ -3,8 +3,9 @@ import { Sequelize } from "sequelize";
 const db = new Sequelize({
   dialect: 'postgres',
   define: {
-    timestamps: false
+    timestamps: false,
   },
+  logging: false,
   database: process.env.database,
   host: process.env.host,
   port: process.env.port,
